@@ -1,0 +1,187 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 40px auto;
+}
+
+section {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  border: 1px solid white;
+  width: 400px;
+  gap: -20px;
+}
+
+h4 {
+  color: red;
+}
+
+div {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button-sec {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 10px;
+  border: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 2.5px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+input {
+  margin-bottom: 20px;
+  outline: none;
+  height: 20px;
+}
+
+.btn {
+  height: 30px;
+  width: 80px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+select {
+  width: 80px;
+  outline: none;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.layout{
+  background-color: purple;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li{
+  margin-right: 50px;
+  text-decoration: none;
+  list-style: none;
+}
+
+li a {
+  color: white;
+}
+
+li a:hover{
+  color: wheat;
+}
+
+.container{
+  width: 100%;
+}
+
+.post-container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3 ,auto);
+  gap: 20px;
+  border: none;
+}
+
+.post-sec{
+  gap: 20px;
+}
+
+.singlepost{
+  margin: 10px auto;
+  width: 550px;
+  gap: 20px;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid white;
+  padding: 40px;
+}
+
+textarea{
+  width: 400px;
+  height: 80px;
+  outline: blue;
+  resize: none;
+  overflow: hidden;
+}
+
+textarea[text]{
+  padding: 10px;
+}
+
+select{
+  width: 300px;
+}
+
+.btn-sec{
+  display: flex;
+  flex-direction: row;
+  border: none;
+  gap: 20px;
+}
